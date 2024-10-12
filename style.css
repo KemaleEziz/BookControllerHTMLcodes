@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #007BFF; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+    width: 200px; /* Width of the input */
+    margin-right: 10px; /* Space between input and button */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 12px; /* Cell padding */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Light gray bottom border */
+}
+
+th {
+    background-color: #007BFF; /* Header background color */
+    color: white; /* Header text color */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Light gray on row hover */
+}
